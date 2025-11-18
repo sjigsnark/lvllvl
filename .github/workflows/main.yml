@@ -16,5 +16,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages        # the branch GitHub Pages will serve from
-          publish_dir: ./src   # <-- change this to your subdirectory (e.g. ./site or ./public)
+          publish_dir: ./dist   # <-- change this to your subdirectory (e.g. ./site or ./public)
           # optional: keep_history: true
